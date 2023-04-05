@@ -1,0 +1,60 @@
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    height: 10vh; width: 100%;
+    background-color: rgb(47, 34, 22);
+    color: white;
+    display: flex; justify-content: space-between; align-items: center;
+    
+}
+
+.title-navbar{
+    padding: 5px; margin: 5px;
+}
+
+.form{
+    padding: 8px; margin: 10px;
+}
+
+.a-menu{
+    color: beige; text-decoration: none; font-size: 18px;
+}
+
+.li_menu{
+    list-style-type: none; 
+    padding: 10px; margin: 8px; 
+    font-weight: 600;
+    background-color: rgb(104, 82, 53); border-radius: 20px;
+}
+
+.judul{
+    padding: 5px; margin: 5px;
+}
+
+.li_menu:hover{
+    padding: 5px; margin: 5px; width:fit-content;
+    transition: 0.2s ease-out; transition-delay: 0.15s;
+    background-color: rgba(245, 245, 220, 0.518);
+    border-radius: 20px;
+}
+
+.menu-navbar{
+    display: flex;  
+    align-items: center; 
+    justify-content: right;
+}
+
+.menu-home{
+    display: flex;  
+    align-items: center; 
+    justify-content: right;
+}
+
+.body{
+    height: 90vh; width: 100%;
+    background-color: rgb(147, 118, 83);
+}
